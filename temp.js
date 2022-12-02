@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         hello lzp
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  try to take over the world! lianxi!
 // @author       You
 // @match        *://*
@@ -15,5 +15,5 @@
     // 启用严格模式
     'use strict';
 
-    console.log("第一次写脚本")
+    console.log("第一次写脚本，第二次提交")
 })();
