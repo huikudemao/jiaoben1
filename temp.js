@@ -6,6 +6,7 @@
 // @author       You
 // @match        *://*
 // @icon         none
+// @license      AGPL License
 // @grant        none
 // ==/UserScript==
 
