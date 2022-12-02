@@ -54,7 +54,7 @@
     var img2=document.createElement('img');
     document.body.appendChild(img2);
     img2.src="https://pic.baike.soso.com/p/20120724/20120724100154-699505001.jpg";
-    img2.style.cssText="width:75px;height:75px;position: absolute;"
+    img2.style.cssText="width:75px;height:75px;position: absolute;z-index: 99999999999 !important"
 
     // 鼠标移动事件
     document.onmousemove =function(ev) {
