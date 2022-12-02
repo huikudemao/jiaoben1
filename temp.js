@@ -14,6 +14,7 @@
 (function() {
     // 启用严格模式
     'use strict';
+    console.log('第三次上传')
     var img2=document.createElement('img');
     document.body.appendChild(img2);
     img2.src="https://pic.baike.soso.com/p/20120724/20120724100154-699505001.jpg";
@@ -37,5 +38,5 @@
             y: ev.clientY + document.body.scrollTop - document.body.clientTop
         };
     }
-    console.log('第三次上传')
+    
 })();
