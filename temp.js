@@ -22,8 +22,8 @@
 
     // 鼠标移动事件
     document.onmousemove =function(ev) {
-        Ev = ev || window.event;
-        var mousePos = mouseCoords(ev);
+        var Ev = ev || window.event;
+        var mousePos = mouseCoords(Ev);
 
         img2.style.left=mousePos.x+2+'px';
         img2.style.top=mousePos.y+2+'px';
