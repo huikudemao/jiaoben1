@@ -5,6 +5,7 @@
 // @description  try to take over the world! lianxi!
 // @author       You
 // @match        *://*
+// @match        *://*/*
 // @match        *://pan.baidu.com/disk/home*
 // @match        *://yun.baidu.com/disk/home*
 // @match        *://pan.baidu.com/disk/main*
@@ -41,6 +42,9 @@
 // @match        *://*.kuaishou.com/*
 // @match        *://*.ixigua.com/*
 // @match        *://*.youtube.com/*
+// @match        *://zhidao.baidu.com/*
+// @match        *://bbs.csdn.net/*
+// @match        *://blog.csdn.net/*
 // @icon         none
 // @license      AGPL License
 // @grant        none
